@@ -138,9 +138,9 @@ function TypeButtonsGrid() {
     fairy: '#D685AD',
   };
 
-  const capitalize = (word: string) => {
-    return word.charAt(0).toUpperCase() + word.slice(1);
-  };
+  // const capitalize = (word: string) => {
+  //   return word.charAt(0).toUpperCase() + word.slice(1);
+  // };
 
   const handleTypeClick = (type: string) => {
     console.log(`Clicked: ${type}`);
@@ -163,7 +163,7 @@ function TypeButtonsGrid() {
                 boxShadow: `0 3px 8px ${typeColors[type]}30`,
               }}
             >
-              {capitalize(type)}
+              {type}
             </button>
           ))}
         </div>
