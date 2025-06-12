@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
+<<<<<<< HEAD
 module.exports = {
   output: 'export',
   // or if older Next.js version
@@ -12,4 +13,6 @@ module.exports = {
 }
 
 
+=======
+>>>>>>> 07ab0ed8cd1f3cf464297c64219254716c7c902f
 export default nextConfig;

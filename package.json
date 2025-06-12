@@ -6,9 +6,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "next lint",
     "export": "next export",
     "deploy": "npm run build && npm run export"
+=======
+    "lint": "next lint"
+>>>>>>> 07ab0ed8cd1f3cf464297c64219254716c7c902f
   },
   "dependencies": {
     "next": "15.3.3",
@@ -21,10 +25,24 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+<<<<<<< HEAD
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "@eslint/eslintrc": "^3"
+=======
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+>>>>>>> 07ab0ed8cd1f3cf464297c64219254716c7c902f
   }
 }
